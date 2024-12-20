@@ -1,0 +1,9 @@
+[package]
+name = "IPv6PrefixFilter_win"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+ctrlc = "3.4.5"
+pnet = "0.35.0"
+windivert-sys = { version = "0.10.0", features = ["vendored"]}
